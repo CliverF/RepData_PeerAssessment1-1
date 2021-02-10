@@ -1,0 +1,21 @@
+"0","for (i in 1:nrow(data2)) {
+  if(data2$day[i]==""Sun"" | data2$day[i]==""Sat""){
+    
+    data2$day[i]<-'Weekend'
+  } else {
+    data2$day[i]<-'Weekday'
+  }
+}
+for (i in 1:nrow(data2)) {
+  if(data2$day[i]==""Sun"" | data2$day[i]==""Sat""){
+    
+    data2$day[i]<-'Weekend'
+  } else {
+    data2$day[i]<-'Weekday'
+  }
+}
+data$day <- as.factor(data2$day)
+"
+"2","Error in data$day <- as.factor(data2$day) : 
+  object of type 'closure' is not subsettable
+"

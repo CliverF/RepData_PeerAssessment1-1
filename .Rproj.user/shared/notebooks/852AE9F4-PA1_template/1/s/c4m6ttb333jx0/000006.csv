@@ -1,0 +1,5 @@
+"0","steps_total<-aggregate((data2$steps), by=list(date=data2$date), sum)
+head(steps_total)
+"
+"0","hist(steps_total$x, main=""Histogram of total number of steps per day"", "
+"0","     xlab=""Total number of steps in a day"")"
