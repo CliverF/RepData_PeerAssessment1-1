@@ -3,7 +3,7 @@
     "path": "C:/Users/cliver/Downloads/R/git/RepData_PeerAssessment1-1/PA1_template.Rmd",
     "project_path": "PA1_template.Rmd",
     "type": "r_markdown",
-    "hash": "1290283657",
+    "hash": "3378323283",
     "contents": "",
     "dirty": false,
     "created": 1612978437426.0,
@@ -12,15 +12,17 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "142,0",
-        "scrollLine": "98"
+        "cursorPosition": "73,4",
+        "scrollLine": "42",
+        "docOutlineSize": "113",
+        "docOutlineVisible": "1"
     },
     "folds": "",
-    "lastKnownWriteTime": 1612983497,
+    "lastKnownWriteTime": 1612984144,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1612983497969,
+    "last_content_update": 1612984144571,
     "read_only": false,
     "read_only_alternatives": []
 }

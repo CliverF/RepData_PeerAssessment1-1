@@ -274,8 +274,12 @@ p</code></pre>
 <pre class="r"><code>length(which(is.na(data1$steps)))</code></pre>
 <pre><code>## [1] 2304</code></pre>
 <ol start="2" style="list-style-type: decimal">
-<li><p>Devise a strategy for filling in all of the missing values in the dataset. The strategy does not need to be sophisticated. For example, you could use the mean/median for that day, or the mean for that 5-minute interval, etc.</p></li>
-<li><p>Create a new dataset that is equal to the original dataset but with the missing data filled in.</p></li>
+<li>Devise a strategy for filling in all of the missing values in the dataset. The strategy does not need to be sophisticated. For example, you could use the mean/median for that day, or the mean for that 5-minute interval, etc.</li>
+</ol>
+<div id="use-mean-of-steps-by-date-if-theres-no-value-use-mean-of-steps-by-interval" class="section level5">
+<h5>Use mean of steps by date if theres no value use mean of steps by interval</h5>
+<ol start="3" style="list-style-type: decimal">
+<li>Create a new dataset that is equal to the original dataset but with the missing data filled in.</li>
 </ol>
 <pre class="r"><code>data2&lt;-data1
 for (i in 1:nrow(data2)){
@@ -307,6 +311,7 @@ head(steps_total)</code></pre>
 <pre><code>## [1] 10766.19</code></pre>
 <pre class="r"><code>median(steps_total$x)</code></pre>
 <pre><code>## [1] 10766.19</code></pre>
+</div>
 </div>
 <div id="are-there-differences-in-activity-patterns-between-weekdays-and-weekends" class="section level2">
 <h2>Are there differences in activity patterns between weekdays and weekends?</h2>
